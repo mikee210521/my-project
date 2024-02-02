@@ -1,0 +1,45 @@
+.container_presentation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 180px 0 200px ;
+    color: #FFFFFF;
+}
+
+.text{
+    margin: 0;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.paragraph{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+
+.btn_container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.button{
+    background-color: transparent;
+    padding: 13px 36px;
+    border-radius: 37px;
+    border: 1px solid #FFF;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.4px;
+    text-align: center;
+}
+
+.button:hover{
+    background-color: #23A6F0;
+    transition-duration: 0.9s;
+}

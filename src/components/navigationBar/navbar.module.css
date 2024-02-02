@@ -1,0 +1,23 @@
+.bar{
+    height: 91px;
+    display: flex;
+    padding-left: 200px;
+    align-items: center;
+    gap: 61px;
+    background-color: rgba(45, 45, 45, 0.50);
+    color: #FFFFFF;
+}
+
+.brand{
+    font-size: 23px;
+}
+
+.nav_page a{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+
