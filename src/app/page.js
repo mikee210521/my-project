@@ -1,6 +1,7 @@
 import styles from "./page.module.css";
 import NavigationBar from "@/components/navigationBar/NavigationBar";
 import Presentation from "@/components/presentation/Presentation";
+import InfoHome from "@/components/infoHome/InfoHome";
 
 
 export default function Home() {
@@ -13,7 +14,9 @@ export default function Home() {
          </div>
      </header>
       <section>
-
+          <div>
+              <InfoHome/>
+          </div>
       </section>
       <footer>
 
