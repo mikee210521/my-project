@@ -1,11 +1,12 @@
-.main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+.header{
+    background-image: url("../assets/hero-cover-5.jpg");
+    height: 651px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+
 
 
 /* Mobile */
