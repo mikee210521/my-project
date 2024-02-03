@@ -1,0 +1,13 @@
+.behind_section_about_us{
+    height: 675px;
+    background-image: url("../../assets/About-2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    color: #FFFFFF;
+}

@@ -3,6 +3,7 @@ import NavigationBar from "@/components/navigationBar/NavigationBar";
 import Presentation from "@/components/presentation/Presentation";
 import InfoHome from "@/components/infoHome/InfoHome";
 import InfoClients from "@/components/infoClients/InfoClients";
+import AboutUs from "@/components/aboutUs/AboutUs";
 
 
 
@@ -35,6 +36,9 @@ export default function Home() {
       </section>
         <section>
             <InfoClients/>
+        </section>
+        <section>
+            <AboutUs/>
         </section>
       <footer>
 
