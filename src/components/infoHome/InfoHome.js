@@ -6,7 +6,10 @@ export default function InfoHome() {
         <div className={styles.info_container}>
             <div>
                 <h1>Better Strategy With <br/> Quality Business</h1>
-                <p>Problems trying to resolve the conflict between <br/> the two major realms of Classical physics: Newtonian mechanics </p>
+                <p>Problems trying to resolve the conflict between <br/>
+                    the two major realms of Classical physics:
+                    Newtonian mechanics
+                </p>
             </div>
             <Projects/>
         </div>
