@@ -1,4 +1,5 @@
 import styles from "./aboutus.module.css";
+import YoutubeVideo from "@/components/videoYoutube/YoutubeVideo";
 
 export default function AboutUs() {
     return(
@@ -11,7 +12,9 @@ export default function AboutUs() {
                 </span>
             </div>
             <div className={styles.row_media_txt}>
-                <div>video</div>
+                <div>
+                    <YoutubeVideo videoId='lNdOtlpmH5U'/>
+                </div>
                 <div className={styles.column_txt_us}>
                     <div className={styles.paragraph_container}>
                         <h3>Most trusted in our field</h3>

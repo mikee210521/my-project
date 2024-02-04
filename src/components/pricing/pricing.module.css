@@ -1,0 +1,122 @@
+.column_container_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 112px 0;
+    gap: 80px;
+}
+
+.txt_title_pricing{
+    color: #252B42;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    margin: 10px;
+}
+
+.txt_paragraph_pricing{
+    color: #737373;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+
+}
+
+/*pricing-cards*/
+
+
+.row_package_pricing{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card_container_package{
+    width: 279px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #23A6F0;
+    border-radius: 10px;
+    line-height: 50px;
+    font-size: 20px;
+    padding: 25px 35px;
+    gap: 35px;
+}
+
+.title_txt_card{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.sub_txt_card{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #737373;
+    margin: 0;
+}
+
+.cost_package_mounth{
+    color: #23A6F0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+    gap: 10px;
+    line-height: 25px;
+}
+
+.number_cost_card{
+    font-size: 40px;
+}
+
+.container_benefits{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.package_benefits{
+    color: #252B42;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    margin: 0;
+}
+
+.package_button{
+    width: 279px;
+    padding: 15px 40px;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    border: 1px solid #23A6F0;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.package_button:hover{
+    color: #FFFFFF;
+    background-color: #23A6F0;
+    transition-duration: 0.9s;
+}

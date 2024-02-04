@@ -4,6 +4,7 @@ import Presentation from "@/components/presentation/Presentation";
 import InfoHome from "@/components/infoHome/InfoHome";
 import InfoClients from "@/components/infoClients/InfoClients";
 import AboutUs from "@/components/aboutUs/AboutUs";
+import Pricing from "@/components/pricing/Pricing";
 
 
 
@@ -39,6 +40,9 @@ export default function Home() {
         </section>
         <section>
             <AboutUs/>
+        </section>
+        <section>
+            <Pricing/>
         </section>
       <footer>
 
