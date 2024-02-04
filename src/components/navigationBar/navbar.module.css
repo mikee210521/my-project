@@ -4,10 +4,10 @@
     top: 0;
 }
 
-.bar{
+.bar_container_txt{
     height: 91px;
     display: flex;
-    padding-left: 200px;
+    padding: 0 195px;
     align-items: center;
     gap: 61px;
     background-color: rgba(45, 45, 45, 0.50);

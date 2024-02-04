@@ -9,7 +9,9 @@ export default function InfoClients() {
                     the two major realms of Classical physics: Newtonian Mechanics
                 </p>
             </div>
-            <CarouselClients/>
+            <div>
+                <CarouselClients/>
+            </div>
         </div>
     )
 }

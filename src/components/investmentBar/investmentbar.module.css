@@ -7,7 +7,10 @@
 
 .container_background{
     background-image: url("../../assets/Rectangle 4286.png");
-    width: 926px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 845px;
     height: 356px;
     border-radius: 10px;
     position: static;

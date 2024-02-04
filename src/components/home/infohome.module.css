@@ -1,0 +1,77 @@
+.main_container_home{
+    height: 752px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*info home*/
+.info_container{
+    height: 612px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    cursor: pointer;
+}
+
+.txt_size_info_projects h1{
+    color: #252B42;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    margin-bottom: 0;
+}
+
+.txt_size_info_projects p{
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+/*cards design*/
+
+.container_data_projects{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding: 0 195px;
+}
+
+.size_card_project{
+    width: 217px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.size_card_project h2{
+    margin: 0;
+    color: #252B42;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+
+.size_card_project h5{
+    margin: 0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #737373;
+}
