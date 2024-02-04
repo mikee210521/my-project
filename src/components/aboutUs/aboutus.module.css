@@ -11,3 +11,53 @@
     text-align: center;
     color: #FFFFFF;
 }
+
+.row_media_txt{
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.column_txt_us{
+    width: 308px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: start;
+}
+
+.paragraph_container h3{
+    font-size: 24px;
+    margin: 0;
+}
+
+.paragraph_container p{
+    width: 305px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.paragraph_container span{
+    margin: 0;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.txt_quick_fox{
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
