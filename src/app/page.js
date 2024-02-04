@@ -6,6 +6,9 @@ import InfoClients from "@/components/infoClients/InfoClients";
 import AboutUs from "@/components/aboutUs/AboutUs";
 import Pricing from "@/components/pricing/Pricing";
 import InvestmentBar from "@/components/investmentBar/InvestmentBar";
+import Contact from "@/components/contact/Contact";
+import InfoFooter from "@/components/infoFooter/InfoFooter";
+
 
 
 export default function Home() {
@@ -51,7 +54,10 @@ export default function Home() {
             </div>
         </section>
       <footer>
-
+          <div>
+              <Contact/>
+          </div>
+          <InfoFooter/>
       </footer>
     </>
   );

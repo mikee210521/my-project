@@ -1,6 +1,7 @@
 .main_container_investment{
     display: flex;
     justify-content: center;
+    height: 630px;
 }
 
 .container_background{

@@ -1,0 +1,30 @@
+.main_container_contact{
+    background-image: url("../../assets/mapcover.png");
+    height: 460px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main_container_card_contact{
+    width: 1052px;
+    height: 573px;
+    background-color: #FFFFFF;
+    position: relative;
+    top: 160px;
+    left: 160px;
+    border-radius: 10px;
+}
+
+.txt_info_card_contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid_form_contact{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
