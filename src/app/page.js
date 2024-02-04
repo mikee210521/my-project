@@ -5,7 +5,7 @@ import InfoHome from "@/components/infoHome/InfoHome";
 import InfoClients from "@/components/infoClients/InfoClients";
 import AboutUs from "@/components/aboutUs/AboutUs";
 import Pricing from "@/components/pricing/Pricing";
-
+import InvestmentBar from "@/components/investmentBar/InvestmentBar";
 
 
 export default function Home() {
@@ -25,15 +25,9 @@ export default function Home() {
                   loop
                   muted
                   className={styles.video}
-              />;
+              />
               <InfoHome/>
           </div>
-          {/*<video*/}
-          {/*    src={require("../../videos/second.mp4")}*/}
-          {/*    autoPlay*/}
-          {/*    loop*/}
-          {/*    muted*/}
-          {/*/>*/}
       </section>
         <section>
             <InfoClients/>
@@ -43,6 +37,18 @@ export default function Home() {
         </section>
         <section>
             <Pricing/>
+        </section>
+        <section>
+            <div>
+                <video
+                    src={require("../../videos/second.mp4")}
+                    autoPlay
+                    loop
+                    muted
+                    className={styles.video}
+                />
+                <InvestmentBar/>
+            </div>
         </section>
       <footer>
 
