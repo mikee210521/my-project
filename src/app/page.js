@@ -8,6 +8,7 @@ import Pricing from "@/components/pricing/Pricing";
 import InvestmentBar from "@/components/investmentBar/InvestmentBar";
 import Contact from "@/components/contact/Contact";
 import InfoFooter from "@/components/infoFooter/InfoFooter";
+import MadeInfoFooter from "@/components/madeInfoFooter/MadeInfoFooter";
 
 
 
@@ -15,10 +16,8 @@ export default function Home() {
   return (
     <>
      <header>
-         <div className={styles.header}>
-             <NavigationBar/>
-             <Presentation/>
-         </div>
+         <NavigationBar/>
+         <Presentation/>
      </header>
       <section>
           <div>
@@ -58,6 +57,7 @@ export default function Home() {
               <Contact/>
           </div>
           <InfoFooter/>
+          <MadeInfoFooter/>
       </footer>
     </>
   );

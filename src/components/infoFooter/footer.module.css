@@ -1,4 +1,42 @@
 .main_container_footer{
-    height: 414px;
-    background-color: #FFFFFF;
+    height: 706px;
+    background-color: #fafafa;
+    display: flex;
+    align-items: end;
+    justify-content: center;
 }
+
+.grid_row_links_padding{
+    width: 1052px;
+    height: 178px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 30px;
+    padding: 80px 0;
+}
+
+.info_txt_links{
+    display: flex;
+    flex-direction: column;
+}
+
+.info_txt_links h3{
+    color: #252B42;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+}
+
+.info_txt_links p,
+.info_txt_links a{
+    color: #737373;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+}
+

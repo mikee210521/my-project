@@ -1,3 +1,9 @@
+.main_bar_position{
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
 .bar{
     height: 91px;
     display: flex;

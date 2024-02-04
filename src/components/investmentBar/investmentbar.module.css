@@ -1,7 +1,8 @@
 .main_container_investment{
     display: flex;
+    align-items: center;
     justify-content: center;
-    height: 630px;
+    height: 652px;
 }
 
 .container_background{
@@ -9,7 +10,7 @@
     width: 926px;
     height: 356px;
     border-radius: 10px;
-    position: relative;
+    position: static;
     top: 125px;
     display: flex;
     flex-direction: column;

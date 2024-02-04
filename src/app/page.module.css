@@ -1,13 +1,5 @@
-.header{
-    background-image: url("../assets/hero-cover-5.jpg");
-    height: 651px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
-/*background*/
-
+/*background-multimedia*/
 .video{
     object-fit: cover;
     width: 100%;

@@ -3,7 +3,7 @@ import styles from "./presentation.module.css";
 import Image from "next/image";
 export default function Presentation() {
     return(
-        <div className={styles.container_presentation}>
+        <div id={styles.header_background} className={styles.container_presentation}>
             <div>
                 <h1 className={styles.text}>Your Financial <br/> Assistant</h1>
                 <p className={styles.paragraph}>We know how large objects will act, <br/> but things on a small scale. </p>
