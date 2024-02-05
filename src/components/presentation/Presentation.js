@@ -17,6 +17,7 @@ export default function Presentation() {
                     <Image
                         src={cover}
                         alt="Picture of the author"
+                        priority={true}
                     />
                 </div>
             </div>

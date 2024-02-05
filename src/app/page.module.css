@@ -1,12 +1,5 @@
 
-/*background-multimedia*/
-.video{
-    object-fit: cover;
-    width: 100%;
-    height: 752px;
-    position: absolute;
-    z-index: -1;
-}
+
 
 
 /* Mobile */

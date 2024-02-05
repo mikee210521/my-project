@@ -1,4 +1,4 @@
-import styles from "@/app/page.module.css";
+import styles from "./infohome.module.css";
 import InfoHome from "@/components/home/InfoHome";
 
 export default function HomeCover() {
