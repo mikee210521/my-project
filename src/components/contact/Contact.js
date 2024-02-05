@@ -14,17 +14,17 @@ export default function Contact() {
                         <input type="email" name="email" placeholder="Email" className={styles.txt_input}/>
                         <select className={styles.text_select}>
                             <option value="take1">Please Select</option>
-                            <option value="take2">take 2</option>
-                            <option value="take3">take 3</option>
-                            <option value="take4">take 4</option>
-                            <option value="take5">take 5</option>
+                            <option value="take2">take 1</option>
+                            <option value="take3">take 2</option>
+                            <option value="take4">take 3</option>
+                            <option value="take5">take 4</option>
                         </select>
                         <select className={styles.text_select}>
                             <option value="take1">4:00 Available</option>
-                            <option value="take2">take 2</option>
-                            <option value="take3">take 3</option>
-                            <option value="take4">take 4</option>
-                            <option value="take5">take 5</option>
+                            <option value="take2">take 1</option>
+                            <option value="take3">take 2</option>
+                            <option value="take4">take 3</option>
+                            <option value="take5">take 4</option>
                         </select>
                     </div>
                     <textarea name="message" placeholder="Message" className={styles.textarea_container}></textarea>

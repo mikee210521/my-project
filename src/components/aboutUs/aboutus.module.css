@@ -61,6 +61,23 @@
     justify-content: space-between;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.1px;
+}
+
+/*icons*/
+
+.icons_container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    letter-spacing: 0.4px;
+    line-height: 25px;
+    gap: 20px;
+}
+
+.icons_container b{
+    font-size: 16px;
+}
+
+.icons_container span{
+    font-size: 14px;
 }

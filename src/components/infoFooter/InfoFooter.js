@@ -1,4 +1,8 @@
 import styles from "./footer.module.css"
+import Facebook from "../../../public/Facebook.svg";
+import Instagram from "../../../public/Instagram.svg"
+import Twitter from "../../../public/Twitter.svg"
+import Image from "next/image";
 
 export default function InfoFooter() {
     return(
@@ -7,8 +11,22 @@ export default function InfoFooter() {
                <div className={styles.info_txt_links}>
                    <h3>Get in touch</h3>
                    <p>the quick fox jumps over the <br/>lazy dog</p>
-                   <div>
-
+                   <div className={styles.row_icons_social_media}>
+                       <Image
+                           src={Facebook}
+                           alt="SVG aboutus"
+                           priority={true}
+                       />
+                       <Image
+                           src={Instagram}
+                           alt="SVG aboutus"
+                           priority={true}
+                       />
+                       <Image
+                           src={Twitter}
+                           alt="SVG aboutus"
+                           priority={true}
+                       />
                    </div>
                </div>
 

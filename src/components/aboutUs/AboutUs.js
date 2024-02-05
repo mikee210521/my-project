@@ -1,5 +1,8 @@
 import styles from "./aboutus.module.css";
 import YoutubeVideo from "@/components/videoYoutube/YoutubeVideo";
+import Setting from "../../../public/Setting.svg";
+import Setting2 from "../../../public/Setting2.svg"
+import Image from "next/image";
 
 export default function AboutUs() {
     return(
@@ -24,18 +27,29 @@ export default function AboutUs() {
                         </p>
                     </div>
                     <div className={styles.txt_quick_fox}>
-                        <span>
-                            <b>
-                                the quick fox jumps over the lazy dog
-                            </b><br/>
-                            things on a very small scale...
-                        </span>
-                        <span>
-                            <b>
-                                the quick fox jumps over the lazy dog
-                            </b><br/>
-                            things on a very small scale...
-                        </span>
+                        <div className={styles.icons_container}>
+                            <Image
+                                src={Setting}
+                                alt="SVG aboutus"
+                                priority={true}
+                            />
+                            <span>
+                                <b>the quick fox jumps over the lazy dog</b>
+                                <br/>Things on a very small scale...
+                            </span>
+                        </div>
+
+                        <div className={styles.icons_container}>
+                            <Image
+                                src={Setting2}
+                                alt="SVG aboutus"
+                                priority={true}
+                            />
+                            <span>
+                                <b>The quick fox jumps over the lazy dog</b>
+                                <br/>Things on a very small scale...
+                            </span>
+                        </div>
                     </div>
                 </div>
 
