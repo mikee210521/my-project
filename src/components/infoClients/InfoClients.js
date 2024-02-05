@@ -1,5 +1,6 @@
 import styles from "./infoclients.module.css"
-import CarouselClients from "@/components/infoClients/CarouselClients";
+import CarouselClients from "@/components/carousel/CarouselClients";
+
 export default function InfoClients() {
     return(
         <div className={styles.info_container}>
