@@ -7,8 +7,23 @@
     gap: 55px;
 }
 
-.txt_client p{
+.txt_client h1{
+    color: #252B42;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
     margin: 0;
+}
+.txt_client p{
+    color: #737373;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    margin: 10px;
 }
 
 /*carouselclients*/

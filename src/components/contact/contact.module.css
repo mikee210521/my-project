@@ -85,7 +85,7 @@
 .button_form{
     border-radius: 5px;
     background-color: #23A6F0;
-    color: #252B42;
+    color: #FFFFFF;
     border: none;
     padding: 15px 40px;
     font-size: 14px;
@@ -97,6 +97,6 @@
 }
 
 .button_form:hover{
-    color: #FFFFFF;
+    color: #252B42;
     transition-duration: 0.9s;
 }

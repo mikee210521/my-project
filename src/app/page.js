@@ -1,4 +1,3 @@
-import styles from "./page.module.css";
 import NavigationBar from "@/components/navigationBar/NavigationBar";
 import Presentation from "@/components/presentation/Presentation";
 import InfoClients from "@/components/infoClients/InfoClients";
