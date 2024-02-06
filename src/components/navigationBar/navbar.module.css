@@ -31,12 +31,48 @@
 
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
+    .bar_container_txt {
+        padding: 0 61px;
+        gap: 40px;
+    }
 
+    .brand {
+        font-size: 20px;
+    }
 
+    .nav_page a {
+        font-size: 12px;
+    }
 }
 
 
 /* Mobile */
 @media (max-width: 700px) {
+    .bar_container_txt {
+        padding: 0 60px;
+        gap: 20px;
+        height: 70px;
+    }
 
+    .brand {
+        font-size: 18px;
+    }
+
+    .nav_page a {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    .bar_container_txt {
+        width: 430px;
+    }
+
+    .brand {
+        display: none;
+    }
+
+    .nav_page a {
+        font-size: 15px;
+    }
 }

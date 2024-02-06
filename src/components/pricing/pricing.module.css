@@ -165,3 +165,33 @@
     background-color: #BDBDBD;
     border-radius: 200px;
 }
+
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px){
+    .row_package_pricing{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .column_container_main{
+        padding: 60px 0 ;
+    }
+}
+
+/*mobile*/
+@media (max-width: 700px) {
+    .row_package_pricing{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .column_container_main{
+        padding: 60px 0 ;
+    }
+}

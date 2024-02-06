@@ -11,7 +11,7 @@
 .main_container_card_contact{
     width: 100%;
     height: 573px;
-    padding:  160px 0 96px 95px;
+    padding:  160px 0 96px 0;
     position: static;
     display: flex;
     justify-content: center;
@@ -99,4 +99,82 @@
 .button_form:hover{
     color: #252B42;
     transition-duration: 0.9s;
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px){
+    .txt_info_card_contact{
+        width: 400px;
+        height: 600px;
+    }
+
+    .grid_form_contact{
+        display: grid;
+        grid-template-columns: repeat(1, 400px);
+        gap: 15px;
+    }
+
+    .textarea_container{
+        width: 400px;
+        height: 400px;
+    }
+
+    .txt_input{
+        padding: 10px;
+    }
+
+    .text_select{
+        padding: 10px;
+    }
+}
+
+/*mobile*/
+@media (max-width: 700px) {
+    .main_container_card_contact{
+        padding:  160px 0 96px 0;
+    }
+
+    .txt_info_card_contact{
+        width: 400px;
+        height: 600px;
+    }
+
+    .grid_form_contact{
+        display: grid;
+        grid-template-columns: repeat(1, 300px);
+        gap: 15px;
+    }
+
+    .textarea_container{
+        width: 400px;
+        height: 400px;
+    }
+
+    .txt_input{
+        padding: 10px;
+    }
+
+    .text_select{
+        padding: 10px;
+    }
+}
+
+@media (max-width: 500px){
+    .txt_info_card_contact{
+        width: 255px;
+        height: 600px;
+    }
+
+    .txt_input{
+        padding: 9px;
+    }
+
+    .text_select{
+        padding: 9px;
+    }
+
+    .textarea_container{
+        width: 200px;
+        height: 200px;
+    }
 }

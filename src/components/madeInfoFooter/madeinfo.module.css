@@ -16,3 +16,9 @@
     letter-spacing: 0.2px;
     text-align: center;
 }
+
+@media (max-width: 500px){
+    #made_info{
+        font-size: 10px;
+    }
+}

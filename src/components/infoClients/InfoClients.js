@@ -12,7 +12,7 @@ export default function InfoClients() {
                     the two major realms of Classical physics: Newtonian Mechanics
                 </p>
             </div>
-            <div>
+            <div className={styles.info_size_swiper}>
                 <CarouselClients/>
             </div>
         </div>

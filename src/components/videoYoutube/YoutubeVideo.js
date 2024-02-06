@@ -3,17 +3,15 @@ import React from 'react';
 import YouTube from 'react-youtube';
 
 
-
 export default class YoutubeVideo extends React.Component{
     render() {
         const onReady = event => {
             event.target.playVideoAt(50);
         }
 
-
         const opts = {
-            height: '442',
-            width: '592',
+            height: '400',
+            width: '500',
             playerVars: {
                 autoplay: 1,
             }

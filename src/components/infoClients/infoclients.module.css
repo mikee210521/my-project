@@ -53,3 +53,27 @@
     background-color: rgba(24, 76, 154, 0.75);
     padding: 19px 15px;
 }
+
+/*mobile*/
+@media (max-width: 500px){
+    .info_container{
+      width: 430px;
+    }
+
+    .card_position{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .client_card{
+        width: 200px;
+        height: 250px;
+    }
+
+    .info_size_swiper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 430px;
+    }
+}
