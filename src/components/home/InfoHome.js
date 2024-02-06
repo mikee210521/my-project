@@ -1,4 +1,3 @@
-
 import styles from "./infohome.module.css"
 import Projects from "@/components/home/Projects";
 

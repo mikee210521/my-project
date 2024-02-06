@@ -88,6 +88,7 @@
     .behind_section_about_us{
         height: 100%;
     }
+
     .row_media_txt{
         display: flex;
         flex-direction: column;
@@ -112,6 +113,7 @@
     .behind_section_about_us{
         height: 100%;
     }
+
     .row_media_txt{
         display: flex;
         flex-direction: column;

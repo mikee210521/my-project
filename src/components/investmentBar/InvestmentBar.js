@@ -6,7 +6,6 @@ export default function InvestmentBar() {
     const [data,setData] = useState(0);
     const [selectedLevel, setSelectedLevel] = useState('');
 
-
     useEffect(() => {
         const levelMapping = {
             0: "0",
@@ -21,11 +20,8 @@ export default function InvestmentBar() {
             90: "8000",
             100: "8000",
         };
-
         setSelectedLevel(levelMapping[data] || "");
     }, [data]);
-
-
 
 
     return(

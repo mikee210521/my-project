@@ -1,4 +1,3 @@
-
 .container_presentation{
     background-image: url("../../assets/hero-cover-5.jpg");
     height: 651px;
@@ -68,7 +67,6 @@
     align-items: end;
     justify-content: end;
 }
-
 
 @media (min-width: 701px) and (max-width: 1120px) {
     .container_presentation {

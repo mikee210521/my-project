@@ -9,9 +9,6 @@ import MadeInfoFooter from "@/components/madeInfoFooter/MadeInfoFooter";
 import HomeCover from "@/components/home/HomeCover";
 import SectionInvestment from "@/components/investmentBar/SectionInvestment";
 
-
-
-
 export default function Home() {
   return (
     <>

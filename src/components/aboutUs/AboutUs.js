@@ -52,7 +52,6 @@ export default function AboutUs() {
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     )

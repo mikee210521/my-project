@@ -1,6 +1,5 @@
 import styles from "./navbar.module.css";
 
-
 export default function NavigationBar() {
     return(
         <div className={styles.main_bar_position}>
