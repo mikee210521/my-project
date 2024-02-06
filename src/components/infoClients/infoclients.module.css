@@ -1,9 +1,10 @@
 .info_container{
-    height: 780px;
+    height: 800px;
     display: flex;
     justify-content: center;
     text-align: center ;
     flex-direction: column;
+    gap: 55px;
 }
 
 .txt_client p{

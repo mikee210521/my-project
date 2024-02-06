@@ -1,3 +1,5 @@
+'use client'
+
 import styles from "./infoclients.module.css"
 import CarouselClients from "@/components/carousel/CarouselClients";
 
